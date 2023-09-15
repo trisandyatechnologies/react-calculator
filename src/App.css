@@ -1,0 +1,29 @@
+h2 {
+  text-align: center;
+}
+
+.calc {
+  border: 1px solid grey;
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+  margin: 0 auto;
+}
+
+.calc button {
+  padding: 8px;
+  border: 1px solid grey;
+  width: 90px;
+  background-color: #ccc;
+  font-size: 20px;
+}
+
+.calc .display {
+  border: 1px solid grey;
+  background-color: #ddd;
+  padding: 8px;
+  font-size: 32px;
+  min-height: 60px;
+  display: flex;
+  align-items: center;
+}
